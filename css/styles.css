@@ -844,7 +844,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  border: 1px solid var(rgba(46, 47, 66, 0.4));
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   padding: 8px 16px;
@@ -854,7 +854,7 @@ body {
 }
 
 .modal-comment::placeholder {
-  color: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+  color: rgba(46, 47, 66, 0.4);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -911,7 +911,7 @@ body {
   cursor: pointer;
 } */
 
-.modal-checkbox-nest {
+/* .modal-checkbox-nest {
   position: absolute;
   top: 0;
   left: 0;
@@ -925,7 +925,7 @@ body {
   transition-property: background-color, border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .modal-checkbox-bird {
   position: absolute;
@@ -939,11 +939,12 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox-input:checked + .user-privacy .modal-policy-span {
+.modal-checkbox-input:checked + .user-policy .modal-policy-span {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
 }
+
 /* .modal-checkbox-input:checked + .modal-checkbox-nest .modal-checkbox-bird {
   fill: var(--cloud);
 } */
@@ -965,7 +966,7 @@ body {
 .modal-submit-btn {
   display: block;
   margin: 0 auto;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
