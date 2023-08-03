@@ -938,7 +938,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox-input:checked + .user-policy .modal-policy-span {
+.modal-checkbox-input:checked + .modal-checkbox-label .modal-policy-span {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
