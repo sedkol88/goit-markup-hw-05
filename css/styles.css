@@ -888,12 +888,12 @@ body {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
-.modal-check-span {
+/* .modal-check-span {
   display: inline-flex;
-}
+} */
 
 .modal-check-text span {
   width: 16px;
