@@ -886,9 +886,13 @@ body {
 .modal-check-text {
   color: var(--lightslate, #8e8f99);
   font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   display: flex;
   align-items: center;
+}
+.modal-check-span {
+  display: inline-flex;
 }
 
 .modal-check-text span {
